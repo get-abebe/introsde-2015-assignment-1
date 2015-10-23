@@ -1,1 +1,7 @@
-# introsde-2015-assignment-1
+Introduction to service design and engineering Assignment 01: Reading/Writing objects to and from XML and JSON
+
+In this assignment i have ivy and src folder. In the last folder(Src), there are four packages under it: healthProfile, jaxbClass, model and people.generated. Besides the folders, there are also xml,json and xsd files in the same directory with the folders.
+
+In order to do run tasks number 1 to 3, first i have created people.xml file and then i created model package and put two java classes(health profile and person) in this package. And then, i created HealthProfileReader java class under healthProfile package which implement all tasks. For tasks number 4 to 6 (marshaling and un-marshaling),firstly i have created three person using java objects and then marshaling to xml file by JAXBMarshaller class and put in the same directory with the folders as Personmarsh.xml. Secondly, for un-marshaling i changed the Personmarsh.xml to Personmarsh.xsd for validation and did the un-marshal by JAXBUNMarshaller class. Finally, i created the person.json file by using JaxbJson class from java objects. All the marshaling and un-marshaling tasks corresponds to java classes which are found in jaxbClass, people.generated and model packages.
+
+To execute the code, Open your terminal window in your local my ass. folder and write ant execute.evaluation and then press enter to see all the outputs.
